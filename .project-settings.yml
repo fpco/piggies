@@ -1,11 +1,11 @@
-extensions:
-  OverloadedStrings: true
-cabal-file: project.cabal
-version: 1
 module-template: ! 'module MODULE_NAME where
 
 '
-modules:
-  Main(src/Main.hs):
-    target-type: console
-    filename: src/Main.hs
+extensions: {}
+environment: ghc-7.4.2-unstable
+cabal-file: project.cabal
+hidden-packages: ''
+version: 1
+extra-packages: ''
+ghc-args: []
+excluded-modules: []
